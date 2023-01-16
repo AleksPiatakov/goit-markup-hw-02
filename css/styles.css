@@ -16,7 +16,7 @@ body {
     background-color: var(--primary-white-color);
 }
 
-h1,h2,h3,h4,h5,h6 {
+.hero-title {
     color: var(--title-text-color);
 }
 
@@ -39,13 +39,11 @@ h1,h2,h3,h4,h5,h6 {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.logo-web {
     color: var(--secondary-accent-color);
 }
 
-.logo-studio {
+
+.logo-dark {
     color: var(--title-text-color);
 }
 
@@ -69,18 +67,14 @@ h1,h2,h3,h4,h5,h6 {
 
 /* mailto-tel */
 
-.contact-mailto, .contact-phone-number {
+.contact-info {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: inherit;
 }
 
-.contact-mailto:active {
-    color: var(--accent-color);
-}
-
-.contact-phone-number:active {
+.contact-info:active {
     color: var(--accent-color);
 }
 
@@ -148,6 +142,7 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--title-text-color);
 }
 
 .subtitle {
@@ -155,12 +150,14 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--title-text-color);
 }
 
 .desc {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 
 .team {
@@ -177,7 +174,7 @@ h1,h2,h3,h4,h5,h6 {
     background-color: var(--title-text-color);
 }
 
-.logo-studio-footer {
+.logo-light {
     color: var(--logo-secondary-color);
 }
 .footer-desc {
